@@ -21,9 +21,9 @@ export default class RnDirectionsApp extends Component {
       coords: []
     }
   }
-// lấy điểm đi và điểm đến
+// lấy điểm đi và điểm đến  
   componentDidMount() {
-    this.getDirections("16.356986,107.683087", "16.4498327,107.4922943")
+    this.getDirections("16.4536308,107.5068822", "21.0228161,105.801944")
   }
   async getDirections(startLoc, destinationLoc) {
     try {
